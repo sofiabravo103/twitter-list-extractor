@@ -1,0 +1,4 @@
+*.pyc
+*.p
+*.csv
+information_spec.py
