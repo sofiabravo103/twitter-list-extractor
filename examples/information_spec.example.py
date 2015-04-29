@@ -8,7 +8,8 @@ pec_lists = {
       {'screen_name' : 'somebody',        # names without @ symbol!
       'list_name' : 'some-random-list',   # remember list names can't 
                                           # contain blank spaces 
-      'target_size' :  100},
+      'target_size' :  100},              # how many users do you 
+                                          # want from this list
 
   'other' : 
       {'screen_name' : 'somebody', 
