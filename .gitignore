@@ -1,4 +1,4 @@
 *.pyc
 *.p
-*.csv
+*.txt
 information_spec.py
