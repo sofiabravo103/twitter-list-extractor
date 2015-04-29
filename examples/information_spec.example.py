@@ -3,15 +3,16 @@ spec_consumer_secret = 'AnEVENcRAZIERHasH'
 spec_access_token = 'YeTAnOTHERCraZYHash'
 spec_access_token_secret = 'CRAZiNesSCONTInues'
 
-spec_keywords = [
-  ['#SomeHashtag'],
-  ['#cats','#lasers']
-]
+pec_lists = {
+  'random' :                              # unique identification for the list
+      {'screen_name' : 'somebody',        # names without @ symbol!
+      'list_name' : 'some-random-list',   # remember list names can't 
+                                          # contain blank spaces 
+      'target_size' :  100},
 
-spec_users = [
-  'CatLover',                    # Names without @ symbol!
-  'CatsAreAwesome'
-]
-
-spec_rejected_keywords = ['stuff', 'you', 'dont', 'want', 'inside','tweets']
-spec_rejected_users = ['users','you','dont','want']
+  'other' : 
+      {'screen_name' : 'somebody', 
+      'list_name' : 'some-other-list', 
+      'target_size' :  100}
+}
+  
