@@ -1,4 +1,4 @@
-# twitter-extractor 
+# twitter-list-extractor 
 
 An extraction tool for building machine learning training based on users from lists in Twitter.
 
@@ -49,6 +49,4 @@ spec_lists = {
   'other' :
 	... 
 }
-
-## Usage ##
-
+~~~~~
